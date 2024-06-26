@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #DFBE95;
+    width: 90%;
+    height: 90%;
+}
+
+#wraper{
+    margin: auto;
+}
+
+#main_photo{
+    text-align: center;
+    padding: auto;
+}
+
+#main_photo h1{
+    color:#3C311F;
+}
+
+#main_photo img{
+    width:600px;
+    height: auto;
+    margin-top: 3em;
+    border: 20px solid #744924;
+}
+
+nav {
+    margin: 20px;
+    text-align: center;
+}
+ 
+nav ul {
+    margin: 0 ;
+    padding: 0 ;
+}
+ 
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    width: 10%; 
+}
+ 
+nav ul li::after{
+    content: "/";
+    padding-left: 50px; 
+    color: #888;
+ 
+}
+ 
+nav ul li:last-child::after {
+    content: ""; 
+}
+ 
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.flex {
+    width: 40em;
+    height: 15em;
+    display: flex; /*横並び*/
+    background-color: #744924;
+    margin:auto;
+    margin-bottom: 40px;
+  }
+  .flex img {
+    width: 200px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    padding-top: 20px;
+  }
+  .flex .right {
+    margin: 0 0 0 20px;
+    padding: 0;
+  }
+  .flex .title {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .flex .text {
+    font-size: 20px;
+    padding: 0;
+    color:#fff;
+    padding-right: 10px;
+    text-align: center;
+  }
+
+  footer{
+    width: 100%;
+    height: 2em;
+    text-align: center;
+    color: #fff;
+    background-color: #3C311F;
+  }
